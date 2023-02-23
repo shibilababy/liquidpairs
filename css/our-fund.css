@@ -1,0 +1,401 @@
+/*** all Mobile Screen (iphone 6,7,8) ***/
+/*** mobile Landscape Size ***/
+/*** medium devices (tablets, less than 992px) ***/
+/*** iPad in landscape ***/
+/**** smaller than desktop 1200 (devices and browsers) ***/
+/**** Container width ***/
+/*** laptop with MDPI (medium density per inch) resolution ***/
+/*** SP developers resolution ***/
+/*** laptop with HiDPI (High Dots Per Inch) resolution ***/
+/*** WSXGA (Wide Super Extended Graphics Array) resolution ***/
+/* placeholder mixin */
+/* how to use this variabile*/
+/* .forms{
+   @include placeholder{
+    opacity: 1;color: #a5aeb7;
+  } */
+/* @include transition (.2s ease-out all); */
+/*    @include flexbox();
+    @include justify-content (center);*/
+section.our-fund-block {
+  padding: 110px 0; }
+  section.our-fund-block .our-fund-block-body .tab-content {
+    background: #1c2938;
+    border-radius: 12px; }
+  section.our-fund-block .our-fund-inner-block {
+    background: url("../img/Our_Funds_bg.png") no-repeat;
+    background-size: 100%;
+    background-position: center 300px; }
+    section.our-fund-block .our-fund-inner-block .our-fund-block-header {
+      padding-top: 40px; }
+      section.our-fund-block .our-fund-inner-block .our-fund-block-header h2 {
+        font-family: "Syne", sans-serif;
+        font-size: 96px;
+        font-weight: 700;
+        line-height: 100px;
+        text-align: left;
+        color: #FFFFFF;
+        margin-bottom: 0; }
+      section.our-fund-block .our-fund-inner-block .our-fund-block-header ol.breadcrumb {
+        margin-top: 10px; }
+        section.our-fund-block .our-fund-inner-block .our-fund-block-header ol.breadcrumb li {
+          font-family: "Manrope", sans-serif;
+          font-size: 16px;
+          font-weight: 500;
+          line-height: 28px;
+          letter-spacing: 0em;
+          text-align: left; }
+          section.our-fund-block .our-fund-inner-block .our-fund-block-header ol.breadcrumb li a {
+            color: #1DADC8; }
+          section.our-fund-block .our-fund-inner-block .our-fund-block-header ol.breadcrumb li.active {
+            color: rgba(193, 207, 220, 0.5); }
+      section.our-fund-block .our-fund-inner-block .our-fund-block-header .breadcrumb-item + .breadcrumb-item::before {
+        content: url(../img/breadcrumb-arrow.svg); }
+      section.our-fund-block .our-fund-inner-block .our-fund-block-header P {
+        font-family: "Manrope", sans-serif;
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 30px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: #EFF2F5;
+        max-width: 600px;
+        margin: 35px 0; }
+    section.our-fund-block .our-fund-inner-block .our-fund-block-body {
+      max-width: 872px; }
+      section.our-fund-block .our-fund-inner-block .our-fund-block-body ul li a.nav-link {
+        padding: 30px 60px;
+        font-family: "Manrope", sans-serif;
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 36px;
+        text-align: center;
+        color: #fff;
+        border-radius: 12px 12px 0px 0px; }
+        section.our-fund-block .our-fund-inner-block .our-fund-block-body ul li a.nav-link.active {
+          background: #1c2938;
+          position: relative; }
+          section.our-fund-block .our-fund-inner-block .our-fund-block-body ul li a.nav-link.active::after {
+            content: '';
+            display: block;
+            background: url(../img/tab-bg.svg);
+            border-radius: 0px 0px 0px 12px;
+            position: absolute;
+            right: -29px;
+            height: 43px;
+            width: 32px;
+            bottom: -4px; }
+          section.our-fund-block .our-fund-inner-block .our-fund-block-body ul li a.nav-link.active::before {
+            content: '';
+            display: block;
+            background: url(../img/tab-bg.svg);
+            border-radius: 0px 0px 0px 12px;
+            position: absolute;
+            left: -33px;
+            height: 43px;
+            width: 32px;
+            bottom: -9px;
+            transform: rotate(270deg); }
+            @media (max-width: 579px) {
+              section.our-fund-block .our-fund-inner-block .our-fund-block-body ul li a.nav-link.active::before {
+                display: none; } }
+      section.our-fund-block .our-fund-inner-block .our-fund-block-body ul li:first-child .active::before {
+        background: transparent !important;
+        transition: all 0.6s ease-in-out; }
+      section.our-fund-block .our-fund-inner-block .our-fund-block-body .tab-content .tab-pane {
+        background: #1c2938;
+        padding-top: 65px;
+        padding-left: 40px;
+        padding-right: 80px;
+        padding-bottom: 70px;
+        border-radius: 12px; }
+        section.our-fund-block .our-fund-inner-block .our-fund-block-body .tab-content .tab-pane:first-child {
+          border-radius: 0px 12px 12px 12px; }
+        section.our-fund-block .our-fund-inner-block .our-fund-block-body .tab-content .tab-pane .img-block img {
+          width: 174px;
+          height: 174px; }
+        section.our-fund-block .our-fund-inner-block .our-fund-block-body .tab-content .tab-pane .txt-block {
+          margin-top: 30px; }
+          section.our-fund-block .our-fund-inner-block .our-fund-block-body .tab-content .tab-pane .txt-block h4 {
+            font-family: "Syne", sans-serif;
+            font-size: 60px;
+            font-weight: 700;
+            line-height: 68px;
+            text-align: left;
+            color: #FFFFFF; }
+            section.our-fund-block .our-fund-inner-block .our-fund-block-body .tab-content .tab-pane .txt-block h4 img {
+              width: 48px;
+              height: 48px;
+              margin-right: 15px; }
+          section.our-fund-block .our-fund-inner-block .our-fund-block-body .tab-content .tab-pane .txt-block small {
+            background: rgba(193, 207, 220, 0.1);
+            border-radius: 60px;
+            padding: 20px 32px;
+            display: block;
+            width: fit-content;
+            font-family: "Manrope", sans-serif;
+            font-size: 16px;
+            font-weight: 500;
+            line-height: 28px;
+            letter-spacing: 0em;
+            text-align: left;
+            color: #fff; }
+          section.our-fund-block .our-fund-inner-block .our-fund-block-body .tab-content .tab-pane .txt-block p {
+            font-family: "Manrope", sans-serif;
+            font-size: 24px;
+            font-weight: 400;
+            line-height: 41px;
+            text-align: left;
+            color: #fff;
+            margin: 0;
+            margin-top: 33px; }
+
+@media (max-width: 1679px) {
+  section.our-fund-block .our-fund-inner-block .our-fund-block-header h2 {
+    font-size: 60px;
+    line-height: 80px; }
+
+  section.our-fund-block .our-fund-inner-block .our-fund-block-body .tab-content .tab-pane {
+    background: #1c2938;
+    padding-top: 45px;
+    padding-left: 30px;
+    padding-right: 60px;
+    padding-bottom: 60px; }
+
+  section.our-fund-block .our-fund-inner-block .our-fund-block-body .tab-content .tab-pane .txt-block h4 img {
+    width: 38px;
+    height: 38px; }
+
+  section.our-fund-block .our-fund-inner-block {
+    background-position: center 270px; }
+
+  section.our-fund-block .our-fund-inner-block .our-fund-block-header P {
+    margin: 20px 0;
+    font-size: 17px; }
+
+  section.our-fund-block .our-fund-inner-block .our-fund-block-body .tab-content .tab-pane .txt-block p {
+    font-size: 17px;
+    line-height: 30px;
+    margin-top: 20px; }
+
+  section.our-fund-block .our-fund-inner-block .our-fund-block-body .tab-content .tab-pane .img-block img {
+    width: 120px;
+    height: 120px; }
+
+  section.our-fund-block .our-fund-inner-block .our-fund-block-body .tab-content .tab-pane .txt-block h4 {
+    font-size: 40px;
+    margin-bottom: 20px; }
+
+  section.our-fund-block .our-fund-inner-block .our-fund-block-body ul li a.nav-link {
+    padding: 20px 45px;
+    font-size: 18px; }
+
+  section.our-fund-block .our-fund-inner-block .our-fund-block-body .tab-content .txt-block small {
+    padding: 15px 25px; }
+
+  section.our-fund-block .our-fund-inner-block .our-fund-block-body .tab-content .txt-block p {
+    font-size: 20px;
+    line-height: 34px;
+    margin-top: 25px; } }
+@media (max-width: 1281px) {
+  section.our-fund-block .our-fund-inner-block .our-fund-block-body .tab-content .tab-pane .img-block img {
+    width: 100px;
+    height: 100px; }
+
+  section.our-fund-block .our-fund-inner-block .our-fund-block-body .tab-content .tab-pane {
+    background: #1c2938;
+    padding-top: 35px;
+    padding-left: 30px;
+    padding-right: 40px;
+    padding-bottom: 40px; }
+
+  section.our-fund-block .our-fund-inner-block .our-fund-block-body .tab-content .txt-block small {
+    padding: 10px 20px;
+    font-size: 14px; }
+
+  section.our-fund-block .our-fund-inner-block .our-fund-block-body ul li a.nav-link {
+    padding: 15px 35px;
+    font-size: 18px; }
+
+  section.our-fund-block .our-fund-inner-block .our-fund-block-body .tab-content .txt-block {
+    margin-top: 20px; }
+
+  section.our-fund-block .our-fund-inner-block .our-fund-block-body .tab-content .tab-pane .txt-block h4 {
+    font-size: 35px;
+    line-height: 24px; }
+
+  section.our-fund-block .our-fund-inner-block .our-fund-block-body .tab-content .tab-pane .txt-block small {
+    padding: 15px 30px;
+    font-size: 14px; }
+
+  section.our-fund-block .our-fund-inner-block .our-fund-block-body .tab-content .txt-block p {
+    font-size: 18px;
+    line-height: 28px;
+    margin-top: 20px; } }
+@media (max-width: 1199px) {
+  section.our-fund-block .our-fund-inner-block .our-fund-block-body .tab-content .txt-block p {
+    font-size: 16px; } }
+@media (max-width: 991px) {
+  section.our-fund-block .our-fund-inner-block .our-fund-block-body .tab-content .txt-block h4 img {
+    width: 32px;
+    height: 32px;
+    margin-right: 15px; }
+
+  section.our-fund-block .our-fund-inner-block .our-fund-block-header ol.breadcrumb li {
+    font-size: 14px; }
+
+  section.our-fund-block {
+    padding: 70px 0; }
+
+  section.our-fund-block .our-fund-inner-block .our-fund-block-body .tab-content .tab-pane .img-block img {
+    width: 80px;
+    height: 80px; }
+
+  section.our-fund-block .our-fund-inner-block .our-fund-block-body .tab-content .txt-block {
+    margin-top: 15px; }
+
+  section.our-fund-block .our-fund-inner-block .our-fund-block-body .tab-content .tab-pane .txt-block h4 {
+    font-size: 24px;
+    margin-bottom: 15px; }
+
+  section.our-fund-block .our-fund-inner-block .our-fund-block-body .tab-content .txt-block p {
+    font-size: 16px;
+    line-height: 28px;
+    margin-top: 20px; }
+
+  section.our-fund-block .our-fund-inner-block .our-fund-block-body ul li a.nav-link {
+    padding: 15px 30px;
+    font-size: 16px; }
+
+  section.our-fund-block .our-fund-inner-block .our-fund-block-body .tab-content .tab-pane {
+    padding: 20px; }
+
+  section.our-fund-block .our-fund-inner-block .our-fund-block-body .tab-content .tab-pane .txt-block p {
+    font-size: 14px;
+    line-height: 24px;
+    margin-top: 15px; } }
+@media (max-width: 767px) {
+  section.our-fund-block .our-fund-block-body .tab-content .txt-block small {
+    padding: 10px 15px;
+    font-size: 12px; }
+
+  section.our-fund-block .our-fund-inner-block .our-fund-block-header P {
+    margin: 15px 0;
+    font-size: 14px;
+    line-height: 26px;
+    margin-bottom: 25px; }
+
+  section.our-fund-block .our-fund-inner-block .our-fund-block-header h2 {
+    font-size: 40px;
+    line-height: 50px; }
+
+  section.our-fund-block .our-fund-inner-block .our-fund-block-body .tab-content .tab-pane .txt-block h4 {
+    font-size: 20px; } }
+@media (max-width: 579px) {
+  section.our-fund-block .our-fund-inner-block .our-fund-block-body ul {
+    background: #1c2938;
+    margin: 0 -12px;
+    justify-content: space-between;
+    padding-left: 10px;
+    padding-right: 10px; }
+
+  section.our-fund-block .our-fund-inner-block .our-fund-block-body .tab-content {
+    background-color: transparent !important; }
+
+  section.our-fund-block .our-fund-inner-block .our-fund-block-body ul li {
+    padding: 15px 32px 15px 26px;
+    font-size: 16px; }
+
+  section.our-fund-block .our-fund-inner-block .our-fund-block-body ul li a.nav-link {
+    padding: 0; }
+
+  section.our-fund-block .our-fund-inner-block .our-fund-block-body ul li a.nav-link {
+    color: rgba(255, 255, 255, 0.3); }
+
+  section.our-fund-block .our-fund-inner-block .our-fund-block-body ul li a.nav-link.active {
+    background-color: transparent;
+    position: relative;
+    color: #ffffff; }
+
+  section.our-fund-block .our-fund-inner-block .our-fund-block-body ul li a.nav-link.active::after {
+    content: '';
+    display: block;
+    background: #1DADC8;
+    width: 100%;
+    height: 4px;
+    position: absolute;
+    z-index: 999;
+    bottom: -15px;
+    left: 0;
+    right: 0; }
+
+  section.our-fund-block .our-fund-inner-block .our-fund-block-body .tab-content .img-block {
+    position: relative; }
+
+  section.our-fund-block .our-fund-inner-block {
+    background: transparent; }
+
+  section.our-fund-block .our-fund-inner-block .our-fund-block-body .tab-content {
+    background-color: transparent !important;
+    padding: 0;
+    padding-top: 25px;
+    padding-left: 16px; }
+
+  section.our-fund-block .our-fund-inner-block .our-fund-block-body .tab-content .txt-block {
+    margin: 0; }
+
+  section.our-fund-block .our-fund-inner-block .our-fund-block-body .tab-content .tab-pane .img-block img {
+    width: 69px;
+    height: 69px; }
+
+  section.our-fund-block .our-fund-inner-block .our-fund-block-body .tab-content .txt-block small {
+    font-size: 12px;
+    font-weight: 800;
+    line-height: 18px;
+    letter-spacing: 0.03em;
+    text-align: left;
+    color: #fff; }
+
+  section.our-fund-block .our-fund-inner-block .our-fund-block-body .tab-content .tab-pane .txt-block h4 {
+    font-family: "Syne", sans-serif;
+    font-size: 21px;
+    font-weight: 700;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FFFFFF;
+    margin-top: 16px;
+    margin-bottom: 13px; }
+
+  section.our-fund-block .our-fund-inner-block .our-fund-block-body .tab-content .txt-block p {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #EFF2F5;
+    margin: 0;
+    margin-top: 14px; }
+
+  section.our-fund-block .our-fund-inner-block .our-fund-block-header {
+    padding-left: 16px; }
+
+  section.our-fund-block .our-fund-inner-block .our-fund-block-body .tab-content .tab-pane {
+    background: transparent;
+    padding: 0; } }
+@media (max-width: 479px) {
+  section.our-fund-block .our-fund-inner-block .our-fund-block-body ul li {
+    padding: 15px 5px; }
+
+  section.our-fund-block .our-fund-inner-block .our-fund-block-body ul {
+    flex-wrap: nowrap;
+    overflow: auto; }
+
+  section.our-fund-block .our-fund-inner-block .our-fund-block-body .tab-content .tab-pane .txt-block small {
+    padding: 10px 20px;
+    font-size: 12px; } }
+@media (max-width: 320px) {
+  section.our-fund-block .our-fund-inner-block .our-fund-block-body ul li a.nav-link {
+    font-size: 14px; } }
+
+/*# sourceMappingURL=our-fund.css.map */

@@ -1,0 +1,886 @@
+/*** all Mobile Screen (iphone 6,7,8) ***/
+/*** mobile Landscape Size ***/
+/*** medium devices (tablets, less than 992px) ***/
+/*** iPad in landscape ***/
+/**** smaller than desktop 1200 (devices and browsers) ***/
+/**** Container width ***/
+/*** laptop with MDPI (medium density per inch) resolution ***/
+/*** SP developers resolution ***/
+/*** laptop with HiDPI (High Dots Per Inch) resolution ***/
+/*** WSXGA (Wide Super Extended Graphics Array) resolution ***/
+/* placeholder mixin */
+/* how to use this variabile*/
+/* .forms{
+   @include placeholder{
+    opacity: 1;color: #a5aeb7;
+  } */
+/* @include transition (.2s ease-out all); */
+/*    @include flexbox();
+    @include justify-content (center);*/
+h1, .h1,
+h2, .h2,
+h3, .h3,
+h4, .h4,
+h5, .h5,
+h6, .h6 {
+  margin: 0 0 0.7em;
+  line-height: 1.2; }
+
+h1, .h1 {
+  font-size: 30px; }
+
+h2, .h2 {
+  font-size: 21px; }
+
+h3, .h3 {
+  font-size: 16px; }
+
+h4, .h4 {
+  font-size: 14px; }
+
+h5, .h5 {
+  font-size: 12px; }
+
+h6, .h6 {
+  font-size: 11px; }
+
+a {
+  color: #4078c0;
+  text-decoration: none; }
+  a:hover, a:focus, a:active {
+    outline: 0; }
+  a:focus {
+    text-decoration: none; }
+
+a[href^=tel] {
+  cursor: default; }
+
+p {
+  margin: 0 0 0.7em; }
+
+small {
+  font-size: 90%; }
+
+blockquote {
+  margin: 0; }
+
+ul,
+ol {
+  padding: 0;
+  margin-top: 0;
+  margin-bottom: 0; }
+
+ol ol,
+ul ol {
+  list-style-type: lower-roman; }
+
+ul ul ol,
+ul ol ol,
+ol ul ol,
+ol ol ol {
+  list-style-type: lower-alpha; }
+
+dd {
+  margin-left: 0; }
+
+tt,
+code {
+  font-family: "Manrope", sans-serif;
+  font-size: 12px; }
+
+pre {
+  margin-top: 0;
+  margin-bottom: 0;
+  font: 12px "Manrope", sans-serif; }
+
+.fund-block {
+  padding: 130px 0 100px 0;
+  background: #0f161b;
+  position: relative; }
+  .fund-block::before {
+    content: '';
+    display: block;
+    background: url(../img/fund-img.svg) no-repeat;
+    width: 158px;
+    height: 389px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    transform: translate(0px, 100px);
+    background-size: 100%; }
+  .fund-block::after {
+    content: '';
+    display: block;
+    background: url(../img/coin.svg) no-repeat;
+    background-size: 100%;
+    width: 343px;
+    height: 293px;
+    position: absolute;
+    top: unset;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+    transform: translate(-230px, 150px);
+    z-index: 9; }
+  .fund-block .sml-block {
+    text-align: center; }
+  .fund-block .fund-block-header h2 {
+    font-family: "Syne", sans-serif;
+    font-size: 60px;
+    font-weight: 700;
+    text-align: left;
+    width: fit-content;
+    padding: 3px;
+    color: #fff;
+    margin: 0;
+    margin-bottom: 25px; }
+    .fund-block .fund-block-header h2 span {
+      margin-left: 4px;
+      padding: 0 5px;
+      position: relative;
+      z-index: 1; }
+      .fund-block .fund-block-header h2 span::after {
+        content: '';
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        background: #FD688C;
+        z-index: -1;
+        transform: rotate(1.33deg); }
+  .fund-block .fund-block-header p {
+    padding-right: 28%;
+    font-family: "Manrope", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    color: #EFF2F5;
+    line-height: 28px;
+    text-align: left;
+    margin: 0px; }
+    @media (max-width: 991px) {
+      .fund-block .fund-block-header p {
+        padding-right: 20%; } }
+    @media (max-width: 767px) {
+      .fund-block .fund-block-header p {
+        padding-right: 20px; } }
+    @media (max-width: 579px) {
+      .fund-block .fund-block-header p {
+        padding-right: 15px; } }
+  .fund-block .fund-block-body {
+    position: relative;
+    margin-top: 100px; }
+    .fund-block .fund-block-body .fund-item-list {
+      display: flex;
+      column-gap: 50px;
+      height: 100%; }
+      .fund-block .fund-block-body .fund-item-list .fund-item {
+        width: calc(100% / 3);
+        height: 100%;
+        border-radius: 12px;
+        padding: 25px;
+        background-image: url(../img/bg1.png);
+        background-size: 100%;
+        background-color: rgba(110, 154, 192, 0.12);
+        backdrop-filter: blur(114px);
+        background-size: cover;
+        background-position: bottom;
+        background-repeat: no-repeat; }
+        .fund-block .fund-block-body .fund-item-list .fund-item:nth-child(3) {
+          background-image: url(../img/bg3.png); }
+        .fund-block .fund-block-body .fund-item-list .fund-item:nth-child(2) {
+          background-image: url(../img/bg2.png); }
+        .fund-block .fund-block-body .fund-item-list .fund-item .fund-item-header .img-block {
+          position: absolute;
+          top: -30px; }
+          .fund-block .fund-block-body .fund-item-list .fund-item .fund-item-header .img-block::after {
+            content: '';
+            display: block;
+            background: #FFFFFF;
+            mix-blend-mode: overlay;
+            filter: blur(44px);
+            height: 40px;
+            width: 40px;
+            position: absolute;
+            top: 10px;
+            left: 30px; }
+        .fund-block .fund-block-body .fund-item-list .fund-item .fund-item-header .txt-block {
+          margin-top: 60px; }
+          .fund-block .fund-block-body .fund-item-list .fund-item .fund-item-header .txt-block h4 {
+            font-family: "Manrope", sans-serif;
+            font-size: 24px;
+            font-weight: 700;
+            text-align: left;
+            color: #fff;
+            margin-bottom: 15px;
+            display: flex;
+            align-items: center; }
+            .fund-block .fund-block-body .fund-item-list .fund-item .fund-item-header .txt-block h4 img {
+              margin-right: 5px;
+              width: 29px;
+              height: 29px; }
+          .fund-block .fund-block-body .fund-item-list .fund-item .fund-item-header .txt-block small {
+            padding: 10px 16px;
+            border-radius: 60px;
+            background: rgba(193, 207, 220, 0.1);
+            font-family: "Manrope", sans-serif;
+            font-size: 12px;
+            font-weight: 800;
+            text-align: center;
+            color: #FFFFFF;
+            display: inline-block; }
+          .fund-block .fund-block-body .fund-item-list .fund-item .fund-item-header .txt-block p {
+            font-family: "Manrope", sans-serif;
+            font-size: 16px;
+            font-weight: 500;
+            line-height: 28px;
+            letter-spacing: 0em;
+            text-align: left;
+            color: #fff;
+            margin-top: 20px;
+            height: 140px;
+            overflow: auto;
+            text-overflow: ellipsis; }
+            .fund-block .fund-block-body .fund-item-list .fund-item .fund-item-header .txt-block p .fund-link {
+              text-decoration: none;
+              color: #fff;
+              display: inline-block; }
+          .fund-block .fund-block-body .fund-item-list .fund-item .fund-item-header .txt-block .btn {
+            width: 217px;
+            height: 60px;
+            font-family: "Syne", sans-serif;
+            font-size: 20px;
+            font-weight: 600;
+            text-align: left;
+            display: block;
+            margin: 30px auto 0;
+            margin-right: 0;
+            text-align: center;
+            color: #fff;
+            border-radius: 20px 0 20px 0px;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            transition: .3s; }
+            .fund-block .fund-block-body .fund-item-list .fund-item .fund-item-header .txt-block .btn img {
+              margin-left: 8px;
+              transition: all 0.3s ease-in-out; }
+            .fund-block .fund-block-body .fund-item-list .fund-item .fund-item-header .txt-block .btn:hover img {
+              transform: translateX(5px); }
+            .fund-block .fund-block-body .fund-item-list .fund-item .fund-item-header .txt-block .btn:focus {
+              box-shadow: none; }
+          .fund-block .fund-block-body .fund-item-list .fund-item .fund-item-header .txt-block .conservative-btn {
+            background-color: #1DADC8; }
+            .fund-block .fund-block-body .fund-item-list .fund-item .fund-item-header .txt-block .conservative-btn:hover {
+              box-shadow: 0px 0px 15px 1px rgba(29, 173, 200, 0.5); }
+          .fund-block .fund-block-body .fund-item-list .fund-item .fund-item-header .txt-block .moderate-btn {
+            background-color: #FD688C; }
+            .fund-block .fund-block-body .fund-item-list .fund-item .fund-item-header .txt-block .moderate-btn:hover {
+              box-shadow: 0px 0px 15px 1px rgba(253, 104, 140, 0.5); }
+          .fund-block .fund-block-body .fund-item-list .fund-item .fund-item-header .txt-block .aggressive-btn {
+            background-color: #FC9345; }
+            .fund-block .fund-block-body .fund-item-list .fund-item .fund-item-header .txt-block .aggressive-btn:hover {
+              box-shadow: 0px 0px 15px 1px rgba(252, 147, 69, 0.5); }
+  .fund-block .fund-block-footer {
+    background: rgba(193, 207, 220, 0.1);
+    border-radius: 20px 0 20px 0;
+    padding: 15px;
+    width: max-content;
+    display: block;
+    margin: auto;
+    margin-top: 60px;
+    transition: all 0.3s ease-in-out; }
+    .fund-block .fund-block-footer .fund-block-btn {
+      background: #EFF2F5;
+      border-radius: 20px 0 20px 0;
+      font-family: "Syne", sans-serif;
+      font-size: 20px;
+      font-weight: 600;
+      text-align: center;
+      width: 420px;
+      height: 64px;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center; }
+      .fund-block .fund-block-footer .fund-block-btn img {
+        transition: all 0.3s ease-in-out;
+        margin-left: 8px; }
+      .fund-block .fund-block-footer .fund-block-btn:hover img {
+        transform: translateX(5px);
+        transition: all 0.3s ease-in-out; }
+    .fund-block .fund-block-footer:hover {
+      box-shadow: 0px 0px 20px 1px rgba(255, 255, 255, 0.4); }
+
+.mob-fund-block {
+  display: none; }
+  .mob-fund-block .fund-item-list .fund-item {
+    position: relative; }
+  .mob-fund-block .fund-item-list {
+    padding-right: 20px; }
+  .mob-fund-block .slick-track {
+    display: flex !important; }
+  .mob-fund-block .slick-slide {
+    height: inherit !important; }
+  .mob-fund-block .slider.slider-thumb.slick-initialized.slick-slider .slick-track {
+    background: rgba(110, 154, 192, 0.12);
+    backdrop-filter: blur(114px);
+    padding: 15px 0; }
+    .mob-fund-block .slider.slider-thumb.slick-initialized.slick-slider .slick-track .slider-thumb-block {
+      text-align: center; }
+    .mob-fund-block .slider.slider-thumb.slick-initialized.slick-slider .slick-track h3 {
+      display: inline-block;
+      font-family: "Manrope", sans-serif;
+      font-size: 16px;
+      font-weight: 500;
+      line-height: 28px;
+      text-align: left;
+      color: rgba(255, 255, 255, 0.3);
+      margin: 0;
+      text-align: center;
+      cursor: pointer;
+      position: relative;
+      width: fit-content;
+      padding: 0 5px; }
+      @media (max-width: 550px) {
+        .mob-fund-block .slider.slider-thumb.slick-initialized.slick-slider .slick-track h3 {
+          font-size: 15px; } }
+  .mob-fund-block .fund-item h4 img {
+    display: inline-block; }
+  .mob-fund-block .fund-item .btn img {
+    display: inline-block; }
+  .mob-fund-block button.slick-prev.slick-arrow,
+  .mob-fund-block button.slick-next.slick-arrow {
+    display: none !important; }
+
+.mob-fund-block .slick-slide {
+  outline: none; }
+
+.about-block {
+  padding: 110px 0 180px 0;
+  position: relative;
+  background: url(../img/net.png) #0f161b no-repeat;
+  background-position-y: 140px;
+  background-position-x: center;
+  background-size: 70%; }
+  .about-block::after {
+    content: '';
+    display: block;
+    background: url(../img/Bit.svg) no-repeat;
+    background-size: 100%;
+    width: 114px;
+    height: 178px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+    transform: translate(0px, 200px); }
+  .about-block .about-block-header h2 {
+    font-family: "Syne", sans-serif;
+    font-size: 60px;
+    font-weight: 700;
+    text-align: left;
+    color: #fff;
+    padding: 0 5px;
+    width: max-content;
+    margin: 0;
+    margin-bottom: 20px;
+    line-height: 60px;
+    position: relative;
+    z-index: 1; }
+    .about-block .about-block-header h2::after {
+      content: '';
+      position: absolute;
+      left: 0;
+      top: 0;
+      background: #FC9345;
+      width: 100%;
+      height: 100%;
+      z-index: -1;
+      transform: rotate(-0.08deg); }
+  .about-block .about-block-header p {
+    font-family: "Syne", sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+    text-align: left;
+    color: #fff; }
+  .about-block .about-block-body {
+    background: rgba(110, 154, 192, 0.12);
+    backdrop-filter: blur(114px);
+    border-radius: 12px;
+    position: relative;
+    margin-top: 140px;
+    padding: 30px 90px 30px 130px; }
+    .about-block .about-block-body .cryptoImg {
+      display: block;
+      margin: auto;
+      position: absolute;
+      top: -170px;
+      left: 0;
+      right: 0;
+      width: 80%; }
+    .about-block .about-block-body .about-block-txt {
+      padding-top: 150px; }
+      .about-block .about-block-body .about-block-txt p {
+        font-family: "Manrope", sans-serif;
+        font-size: 24px;
+        font-weight: 400;
+        line-height: 41px;
+        text-align: left;
+        color: #fff;
+        margin-bottom: 40px; }
+        .about-block .about-block-body .about-block-txt p:last-child {
+          margin-bottom: 0; }
+      .about-block .about-block-body .about-block-txt .btn {
+        height: 60px;
+        width: 328px;
+        border-radius: 100px;
+        padding: 16px 40px;
+        border: 1px solid #1DADC8;
+        font-family: "Syne", sans-serif;
+        font-size: 20px;
+        font-weight: 600;
+        text-align: center;
+        color: #fff;
+        display: block;
+        margin: auto;
+        margin-top: 50px;
+        transition: all 0.3s ease-in-out;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center; }
+        .about-block .about-block-body .about-block-txt .btn:hover {
+          background-color: #1DADC8; }
+
+@media (max-width: 1679px) {
+  .fund-block .fund-block-header h2 {
+    font-size: 50px;
+    margin-bottom: 20px;
+    line-height: 55px; }
+
+  .about-block .about-block-header h2 {
+    font-size: 50px;
+    margin-bottom: 20px; }
+
+  .about-block .about-block-body {
+    padding: 30px 90px; }
+
+  .about-block .about-block-body .about-block-txt p {
+    font-size: 25px;
+    line-height: 38px; }
+
+  .about-block .about-block-body .about-block-txt {
+    padding-top: 70px; }
+
+  .about-block {
+    padding: 90px 0 140px 0; }
+
+  .fund-block {
+    padding: 100px 0 80px 0; }
+
+  .fund-block::after {
+    width: 310px;
+    height: 260px; }
+
+  .about-block .about-block-header p {
+    font-size: 32px; }
+
+  .about-block .about-block-body .cryptoImg {
+    width: 55%;
+    top: -120px; } }
+@media (max-width: 1441px) {
+  .about-block .about-block-body .about-block-txt p {
+    font-size: 22px;
+    line-height: 35px; }
+
+  .fund-block .fund-block-footer .fund-block-btn {
+    height: 56px; }
+
+  .fund-block .fund-block-body .fund-item-list .fund-item .fund-item-header .txt-block .btn {
+    width: 200px;
+    height: 55px;
+    font-size: 18px; }
+
+  .fund-block .fund-block-footer {
+    margin-top: 40px; } }
+@media (max-width: 1367px) {
+  .fund-block .fund-block-footer .fund-block-btn {
+    height: 55px; }
+
+  .about-block .about-block-header p {
+    font-size: 28px; }
+
+  .about-block .about-block-body .about-block-txt {
+    padding-top: 90px; }
+
+  .fund-block::after {
+    width: 280px;
+    height: 240px; }
+
+  .about-block .about-block-body {
+    padding: 30px 70px; }
+
+  .fund-block::before {
+    width: 95px;
+    height: 200px; }
+
+  .about-block {
+    padding: 60px 0 110px 0; }
+
+  .fund-block {
+    padding: 70px 0 60px 0; }
+
+  .about-block .about-block-body {
+    margin-top: 100px; }
+
+  .about-block .about-block-header h2,
+  .fund-block .fund-block-header h2 {
+    font-size: 40px;
+    line-height: 50px;
+    margin-bottom: 10px; }
+
+  .fund-block .fund-block-body .fund-item-list .fund-item .fund-item-header .txt-block h4 {
+    font-size: 20px; }
+
+  .about-block .about-block-body .about-block-txt p {
+    font-size: 20px;
+    line-height: 30px;
+    margin-bottom: 20px; }
+
+  .about-block .about-block-body .about-block-txt .btn {
+    height: 55px;
+    width: 300px; }
+
+  .about-block::after {
+    width: 74px;
+    height: 128px; } }
+@media (max-width: 1199px) {
+  .about-block .about-block-body .about-block-txt p {
+    font-size: 20px;
+    line-height: 35px;
+    margin-bottom: 25px; }
+
+  .about-block .about-block-header p {
+    font-size: 24px; }
+
+  .about-block .about-block-body {
+    padding: 30px 50px; }
+
+  .about-block .about-block-body .about-block-txt .btn {
+    font-size: 18px;
+    height: 55px;
+    width: 305px;
+    margin-top: 30px; }
+
+  .about-block .about-block-body {
+    margin-top: 85px; }
+
+  .about-block .about-block-body .about-block-txt {
+    padding-top: 60px; }
+
+  .about-block .about-block-body .cryptoImg {
+    top: -100px;
+    width: 60%; }
+
+  .fund-block .fund-block-body {
+    margin-top: 50px; }
+
+  .fund-block .fund-block-body .fund-item-list .fund-item .fund-item-header .txt-block h4 {
+    font-size: 18px; }
+
+  .fund-block .fund-block-body .fund-item-list .fund-item .fund-item-header .txt-block p {
+    font-size: 14px;
+    line-height: 22px; }
+
+  .fund-block .fund-block-body .fund-item-list {
+    column-gap: 30px; }
+
+  .fund-block .fund-block-footer .fund-block-btn {
+    width: 370px;
+    height: 50px;
+    font-size: 18px; }
+
+  .fund-block .fund-block-header h2 {
+    font-size: 40px;
+    margin-bottom: 20px; }
+
+  .about-block .about-block-header h2 {
+    font-size: 40px;
+    margin-bottom: 20px;
+    margin-bottom: 15px; }
+
+  .fund-block::after {
+    width: 250px;
+    height: 210px; }
+
+  .fund-block {
+    padding: 50px 0 40px 0; }
+
+  .about-block {
+    padding: 40px 0 80px 0; } }
+@media (max-width: 991px) {
+  .fund-block {
+    padding: 30px 0 30px 0; }
+
+  .about-block .about-block-body .about-block-txt {
+    padding-top: 30px; }
+
+  .about-block {
+    padding: 30px 0 40px 0; }
+
+  .about-block .about-block-header h2,
+  .fund-block .fund-block-header h2 {
+    font-size: 34px;
+    line-height: 44px; }
+
+  .fund-block::after {
+    width: 210px;
+    height: 180px;
+    transform: translate(-107px, 150px); }
+
+  .about-block .about-block-header p {
+    font-size: 20px; }
+
+  .about-block .about-block-body .cryptoImg {
+    top: -80px; }
+
+  .about-block .about-block-body {
+    margin-top: 70px; }
+
+  .about-block .about-block-body .about-block-txt p {
+    font-size: 16px;
+    line-height: 28px;
+    margin-bottom: 15px; }
+
+  .fund-block .fund-block-footer .fund-block-btn {
+    width: 260px;
+    height: 45px;
+    font-size: 16px; }
+
+  .fund-block .fund-block-body .fund-item-list {
+    flex-direction: column; }
+
+  .fund-block .fund-block-body .fund-item-list .fund-item {
+    width: 100%;
+    margin-top: 100px; }
+
+  .fund-block .fund-block-body .fund-item-list .fund-item .fund-item-header .txt-block p {
+    height: auto; }
+
+  .fund-block .fund-block-body .fund-item-list .fund-item:first-child {
+    margin-top: 0; }
+
+  .fund-block .fund-block-body .fund-item-list .fund-item .fund-item-header .txt-block .btn {
+    width: 190px;
+    height: 50px;
+    font-size: 16px; }
+
+  .about-block .about-block-body .about-block-txt .btn {
+    font-size: 14px;
+    height: 50px;
+    width: 100%;
+    max-width: 240px;
+    margin-top: 30px;
+    padding: 0; }
+
+  .about-block .about-block-body {
+    padding: 30px; } }
+@media (max-width: 767px) {
+  .about-block .about-block-body .about-block-txt {
+    padding-top: 40px; }
+
+  .about-block .about-block-body .cryptoImg {
+    top: -75px;
+    width: 80%; }
+
+  .fund-block::after {
+    width: 170px;
+    height: 150px;
+    transform: translate(-40px, 144px); }
+
+  .about-block .about-block-body .about-block-txt .btn {
+    font-size: 16px;
+    width: 100%;
+    max-width: 240px;
+    margin-top: 20px; } }
+@media (max-width: 579px) {
+  .fund-block {
+    display: none; }
+
+  .mob-fund-block {
+    display: block; }
+
+  .mob-fund-block .fund-block-header {
+    margin-bottom: 40px; }
+
+  .mob-fund-block .fund-block-header P {
+    margin-bottom: 20px; }
+
+  .mob-fund-block .fund-block-header P:last-child {
+    margin-bottom: 0; }
+
+  .mob-fund-block .fund-block-body {
+    margin: 0; }
+
+  .mob-fund-block .fund-block-body .fund-item-list {
+    padding-top: 50px; }
+
+  section.about-block {
+    background: transparent; }
+
+  .mob-fund-block .fund-block-body .fund-item-list .fund-item .fund-item-header .img-block::after {
+    filter: blur(30px);
+    left: 25px;
+    top: 30px; }
+
+  .fund-block .fund-block-header h2 {
+    font-family: "Syne", sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    text-align: left;
+    line-height: 32px;
+    margin-bottom: 10px; }
+
+  .about-block .about-block-body {
+    margin-top: 50px;
+    padding: 20px;
+    padding-top: 10px; }
+
+  .fund-block {
+    padding: 50px 0; }
+
+  .fund-block .fund-block-header p {
+    font-family: "Manrope", sans-serif;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 23px;
+    text-align: left; }
+
+  .fund-block .fund-block-body .fund-item-list .fund-item .fund-item-header .img-block {
+    right: 0;
+    left: 0;
+    margin: auto;
+    width: 84px; }
+
+  .fund-block .fund-block-body .fund-item-list .fund-item .fund-item-header .txt-block h4 {
+    display: block;
+    text-align: center;
+    font-family: "Manrope", sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 26px;
+    margin-bottom: 15px; }
+
+  .fund-block .fund-block-body .fund-item-list .fund-item .fund-item-header .txt-block {
+    margin-top: 50px; }
+
+  .fund-block .fund-block-body .fund-item-list .fund-item .fund-item-header .txt-block p {
+    font-family: "Manrope", sans-serif;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 26px;
+    text-align: left;
+    margin: 0;
+    max-height: 100px; }
+
+  .fund-block .fund-block-body .fund-item-list .fund-item .fund-item-header .txt-block small {
+    margin-bottom: 12px;
+    font-family: "Manrope", sans-serif;
+    font-size: 11px;
+    font-weight: 800;
+    line-height: 18px;
+    text-align: center;
+    padding: 10px; }
+
+  .fund-block .fund-block-body .fund-item-list .fund-item .fund-item-header .txt-block .btn {
+    height: 44px;
+    width: 163px;
+    display: block;
+    margin: auto;
+    margin-top: 23px; }
+
+  .fund-block .fund-block-body .fund-item-list .fund-item {
+    background-image: url(../img/bg-sm-1.png); }
+
+  .fund-block .fund-block-body .fund-item-list .fund-item:nth-child(2) {
+    background: rgba(110, 154, 192, 0.12);
+    backdrop-filter: blur(114px); }
+
+  .fund-block .fund-block-body .fund-item-list .fund-item:nth-child(3) {
+    background: rgba(110, 154, 192, 0.12);
+    backdrop-filter: blur(114px); }
+
+  .fund-block .fund-block-footer {
+    display: none; }
+
+  .fund-block::after {
+    transform: translate(-50px, 75px);
+    display: block;
+    width: 160px; }
+
+  .about-block {
+    padding-top: 30px !important; }
+
+  .about-block .about-block-header h2 {
+    font-size: 24px;
+    line-height: 32px;
+    margin-bottom: 5px; }
+
+  .about-block .about-block-header p {
+    font-family: "Manrope", sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 30px;
+    text-align: left; }
+
+  .about-block .about-block-body .cryptoImg {
+    width: 70% !important;
+    top: -57px; }
+
+  .about-block .about-block-body .about-block-txt {
+    padding-top: 55px; }
+
+  .about-block::after {
+    display: none; }
+
+  .about-block .about-block-body .about-block-txt p {
+    font-size: 14px; }
+
+  .mob-fund-block .slick-slide.slick-current.slick-active h3 {
+    color: #fff !important; }
+
+  .mob-fund-block .slider-container {
+    padding: 0;
+    max-width: 100%; }
+
+  .mob-fund-block .slick-slide.slick-current.slick-active h3::after {
+    content: '';
+    display: block;
+    position: absolute;
+    bottom: -15px;
+    background: #1DADC8;
+    height: 4px;
+    width: 100%;
+    left: 0; } }
+@media (max-width: 320px) {
+  .mob-fund-block .slider.slider-thumb.slick-initialized.slick-slider .slick-track h3 {
+    font-size: 14px; }
+
+  .mob-fund-block .slider-container {
+    padding: 0; }
+
+  .about-block .about-block-body .cryptoImg {
+    top: -45px;
+    width: 90% !important; }
+
+  .about-block .about-block-body .about-block-txt {
+    padding-top: 35px; }
+
+  .fund-block::after {
+    transform: translate(-20px, 90px);
+    display: block;
+    width: 100px; } }
+
+/*# sourceMappingURL=fund-block.css.map */

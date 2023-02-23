@@ -1,0 +1,219 @@
+/*** all Mobile Screen (iphone 6,7,8) ***/
+/*** mobile Landscape Size ***/
+/*** medium devices (tablets, less than 992px) ***/
+/*** iPad in landscape ***/
+/**** smaller than desktop 1200 (devices and browsers) ***/
+/**** Container width ***/
+/*** laptop with MDPI (medium density per inch) resolution ***/
+/*** SP developers resolution ***/
+/*** laptop with HiDPI (High Dots Per Inch) resolution ***/
+/*** WSXGA (Wide Super Extended Graphics Array) resolution ***/
+/* placeholder mixin */
+/* how to use this variabile*/
+/* .forms{
+   @include placeholder{
+    opacity: 1;color: #a5aeb7;
+  } */
+/* @include transition (.2s ease-out all); */
+/*    @include flexbox();
+    @include justify-content (center);*/
+.full-width-bg {
+  background: #1b262f;
+  background: linear-gradient(90deg, #1b262f 0%, #1b2837 100%);
+  min-height: 400px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  font-family: "Manrope", sans-serif;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  position: relative; }
+  .full-width-bg .lft-content {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    max-width: 500px;
+    justify-content: center; }
+    .full-width-bg .lft-content strong {
+      font-family: "Syne", sans-serif;
+      font-weight: 700;
+      font-size: 48px;
+      line-height: 60px;
+      letter-spacing: -0.01em;
+      color: #FFFFFF;
+      margin-bottom: 20px; }
+    .full-width-bg .lft-content .logo-ftr {
+      margin: 25px 0; }
+      .full-width-bg .lft-content .logo-ftr img {
+        height: 55px; }
+      .full-width-bg .lft-content .logo-ftr .mob-logo {
+        display: none;
+        height: 64px; }
+  .full-width-bg .sub-btn {
+    background-color: #5E6AC9;
+    padding: 5px 18px;
+    height: 65px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 25px 0px 25px 0px;
+    width: 220px;
+    border: 0;
+    color: #fff;
+    position: relative;
+    margin-top: auto;
+    overflow: hidden;
+    font-weight: normal;
+    border-width: 8px;
+    border-style: solid;
+    border-color: #212754;
+    -webkit-transition: 0.2s ease-out all;
+    -moz-transition: 0.2s ease-out all;
+    -ms-transition: 0.2s ease-out all;
+    transition: 0.2s ease-out all; }
+    .full-width-bg .sub-btn img {
+      filter: brightness(0) invert(1); }
+    .full-width-bg .sub-btn span {
+      -webkit-transition: 0.2s ease-out all;
+      -moz-transition: 0.2s ease-out all;
+      -ms-transition: 0.2s ease-out all;
+      transition: 0.2s ease-out all;
+      margin-left: 5px; }
+    .full-width-bg .sub-btn:hover {
+      box-shadow: 0px 0px 15px 1px rgba(94, 106, 201, 0.7); }
+      .full-width-bg .sub-btn:hover span {
+        transform: translateX(5px); }
+
+.right-graphics {
+  position: absolute;
+  top: 110px;
+  right: 0;
+  transform: translate(0%, -50%);
+  z-index: 9; }
+  .right-graphics img {
+    width: 900px; }
+
+@media (max-width: 1679px) {
+  .full-width-bg .lft-content strong {
+    font-size: 50px;
+    line-height: 55px; }
+
+  .ftr-info strong {
+    font-size: 20px;
+    margin-bottom: 15px; }
+
+  .right-graphics img {
+    width: 800px;
+    position: relative;
+    top: 30px; } }
+@media (max-width: 1441px) {
+  .full-width-bg .lft-content strong {
+    font-size: 40px;
+    line-height: 45px; } }
+@media (max-width: 1281px) {
+  .full-width-bg .sub-btn {
+    width: 200px; }
+
+  .right-graphics img {
+    width: 620px;
+    position: relative;
+    top: 91px; }
+
+  .bg-dark {
+    padding-bottom: 130px; } }
+@media (max-width: 1199px) {
+  .full-width-bg .lft-content strong {
+    font-size: 40px;
+    line-height: 45px; } }
+@media (max-width: 1023px) {
+  .right-graphics img {
+    width: 590px;
+    position: relative;
+    top: 95px; } }
+@media (max-width: 991px) {
+  .bg-dark {
+    padding-bottom: 100px; }
+
+  .full-width-bg .lft-content strong {
+    font-size: 35px;
+    line-height: 40px; }
+
+  .right-graphics img {
+    width: 510px;
+    top: 55px; }
+
+  .full-width-bg .lft-content {
+    max-width: 420px; }
+
+  .full-width-bg {
+    min-height: auto;
+    padding-top: 30px;
+    padding-bottom: 30px; } }
+@media (max-width: 767px) {
+  .full-width-bg {
+    position: relative; }
+    .full-width-bg::before {
+      content: "";
+      background: url(../img/fund-img.svg) no-repeat;
+      width: 120px;
+      height: 150px;
+      background-size: 75px;
+      position: absolute;
+      left: 0;
+      top: -100px; }
+
+  .right-graphics img {
+    position: static;
+    width: 100%; }
+
+  .full-width-bg {
+    flex-direction: column;
+    justify-content: center;
+    width: 100%; }
+
+  .right-graphics {
+    position: relative;
+    transform: none;
+    top: 40px; }
+
+  .full-width-bg .lft-content {
+    max-width: 100%;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center; }
+
+  .full-width-bg {
+    min-height: 290px;
+    padding-top: 30px;
+    padding-bottom: 0px; }
+
+  .full-width-bg .lft-content .logo-ftr {
+    margin-top: 0; }
+
+  .fund-block::before {
+    display: none; }
+
+  .full-width-bg .lft-content strong {
+    font-size: 30px;
+    line-height: 35px;
+    margin-bottom: 35px; } }
+@media (max-width: 579px) {
+  .bg-dark {
+    padding-bottom: 50px; }
+
+  .full-width-bg .lft-content strong {
+    font-size: 24px;
+    line-height: 30px;
+    margin-bottom: 30px; }
+
+  .full-width-bg .lft-content .logo-ftr .web-logo {
+    display: none; }
+
+  .full-width-bg .lft-content .logo-ftr .mob-logo {
+    display: block; } }
+@media (max-width: 479px) {
+  .right-graphics {
+    top: 27px; } }
+
+/*# sourceMappingURL=sign-up-section.css.map */

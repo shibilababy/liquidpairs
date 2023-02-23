@@ -1,0 +1,756 @@
+/*** all Mobile Screen (iphone 6,7,8) ***/
+/*** mobile Landscape Size ***/
+/*** medium devices (tablets, less than 992px) ***/
+/*** iPad in landscape ***/
+/**** smaller than desktop 1200 (devices and browsers) ***/
+/**** Container width ***/
+/*** laptop with MDPI (medium density per inch) resolution ***/
+/*** SP developers resolution ***/
+/*** laptop with HiDPI (High Dots Per Inch) resolution ***/
+/*** WSXGA (Wide Super Extended Graphics Array) resolution ***/
+/* placeholder mixin */
+/* how to use this variabile*/
+/* .forms{
+   @include placeholder{
+    opacity: 1;color: #a5aeb7;
+  } */
+/* @include transition (.2s ease-out all); */
+/*    @include flexbox();
+    @include justify-content (center);*/
+.start-investing-cover {
+  position: relative; }
+  .start-investing-cover:before {
+    content: "";
+    background: url(../img/vector-bg.svg) no-repeat bottom right;
+    background-size: 65%;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    bottom: 0;
+    right: 10%;
+    z-index: -1;
+    opacity: 0.5; }
+
+.forms-progress-cover {
+  margin-top: 50px; }
+  .forms-progress-cover ul {
+    font-family: "Manrope", sans-serif; }
+    .forms-progress-cover ul .title-primary {
+      font-weight: 700;
+      font-size: 24px;
+      line-height: 36px;
+      color: #fff; }
+    .forms-progress-cover ul li {
+      list-style: none;
+      position: relative; }
+      .forms-progress-cover ul li:before {
+        content: "";
+        position: absolute;
+        left: -70px;
+        height: 100%;
+        width: 1px;
+        background-color: #303132;
+        -webkit-transition: 0.2s ease-out all;
+        -moz-transition: 0.2s ease-out all;
+        -ms-transition: 0.2s ease-out all;
+        transition: 0.2s ease-out all; }
+      .forms-progress-cover ul li:after {
+        content: "";
+        background-color: #333B42;
+        width: 24px;
+        height: 24px;
+        border-radius: 50%;
+        position: absolute;
+        left: -81px;
+        z-index: 9;
+        top: 0;
+        -webkit-transition: 0.2s ease-out all;
+        -moz-transition: 0.2s ease-out all;
+        -ms-transition: 0.2s ease-out all;
+        transition: 0.2s ease-out all; }
+      .forms-progress-cover ul li p {
+        color: #fff;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 28px;
+        margin-top: 5px;
+        margin-bottom: 20px; }
+      .forms-progress-cover ul li:first-child .title-primary {
+        margin-bottom: 15px; }
+      .forms-progress-cover ul li.active:after, .forms-progress-cover ul li.active:before {
+        background-color: #1DADC8; }
+    .forms-progress-cover ul .line-gry {
+      height: 88px;
+      position: relative; }
+      .forms-progress-cover ul .line-gry:before {
+        content: "";
+        background-color: #303132;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        position: absolute;
+        width: 100%;
+        height: 0.5px; }
+    .forms-progress-cover ul .flx-drcn {
+      flex-direction: column; }
+      .forms-progress-cover ul .flx-drcn .cstm-radio {
+        margin-bottom: 30px; }
+        .forms-progress-cover ul .flx-drcn .cstm-radio:last-child {
+          margin-bottom: 0; }
+  .forms-progress-cover .submit-otr {
+    width: 100%;
+    margin-top: 60px;
+    text-align: right; }
+    .forms-progress-cover .submit-otr .alert-msg p {
+      padding: 5px 15px; }
+  .forms-progress-cover .icon-inside {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    position: relative; }
+    .forms-progress-cover .icon-inside i {
+      position: absolute;
+      left: 10px; }
+    .forms-progress-cover .icon-inside .form-control {
+      padding-left: 50px; }
+  .forms-progress-cover .btn-submit {
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+    padding: 13px;
+    background-color: rgba(26, 133, 153, 0.2);
+    font-weight: 600;
+    font-family: "Syne", sans-serif;
+    border-radius: 35px 0 35px 0;
+    display: inline-block;
+    transition: .3s;
+    border: solid 1px transparent;
+    text-align: center; }
+    .forms-progress-cover .btn-submit span {
+      padding: 10px 40px;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      background: #1DADC8;
+      height: 64px;
+      min-width: 400px;
+      border-radius: 25px 0 25px 0;
+      transition: .3s; }
+      .forms-progress-cover .btn-submit span img {
+        margin-left: 10px;
+        transition: .3s;
+        width: 1em;
+        height: 1em;
+        object-fit: contain;
+        margin-left: 5px; }
+    .forms-progress-cover .btn-submit:hover {
+      background-color: rgba(26, 133, 153, 0.3);
+      box-shadow: 0px 0px 20px 1px rgba(26, 133, 153, 0.85); }
+  .forms-progress-cover .input-holder {
+    position: relative;
+    margin-bottom: 12px; }
+
+.half-width {
+  width: 50%; }
+
+.mrgn {
+  margin-top: 25px; }
+
+.form-grp {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: -20px;
+  margin-right: -20px; }
+  .form-grp .asterisk {
+    color: #1DADC8; }
+  .form-grp .form-label {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 28px;
+    color: #fff;
+    padding-left: 15px; }
+  .form-grp .form-control:focus {
+    box-shadow: 0 0 0 2px rgba(29, 173, 200, 0.36); }
+  .form-grp .form-control {
+    background-color: #22303c;
+    border: 0;
+    border-radius: 10px;
+    height: 46px;
+    color: #c1cfdc;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 28px; }
+    .form-grp .form-control input {
+      background-color: transparent;
+      border: 0;
+      outline: 0;
+      height: 100%; }
+  .form-grp .select-grp {
+    display: flex;
+    align-items: center;
+    padding-top: 0;
+    padding-bottom: 0;
+    padding-right: 0; }
+    .form-grp .select-grp input {
+      color: #c1cfdc;
+      flex: 1 1 auto;
+      width: 1%;
+      border-radius: 0 10px 10px 0;
+      margin-left: 5px; }
+      .form-grp .select-grp input:focus {
+        box-shadow: 0 0 0 2px rgba(29, 173, 200, 0.36); }
+    .form-grp .select-grp .input-group-text {
+      background-color: transparent;
+      border: 0;
+      padding-left: 0;
+      padding-right: 5px;
+      border-right: 1px solid #404548;
+      border-radius: 0;
+      height: 20px;
+      margin-right: 5px; }
+      .form-grp .select-grp .input-group-text select {
+        border: 0;
+        background-color: transparent;
+        color: #c1cfdc;
+        outline: 0;
+        max-width: 93px; }
+        .form-grp .select-grp .input-group-text select option {
+          color: #333; }
+  .form-grp textarea {
+    height: 160px !important;
+    width: 100%;
+    resize: none; }
+  .form-grp .pdg {
+    padding-left: 20px;
+    padding-right: 20px; }
+  .form-grp .width-3 {
+    width: 20%; }
+
+.radio-otr {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 35px; }
+
+.cstm-radio {
+  display: block;
+  position: relative;
+  padding-left: 60px;
+  margin-bottom: 0px;
+  cursor: pointer;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 40px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  color: #fff;
+  min-width: 150px;
+  margin-right: 35px; }
+  .cstm-radio .checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 2px solid #404548; }
+  .cstm-radio .checkmark:after {
+    content: "";
+    position: absolute;
+    display: none; }
+
+/* Hide the browser's default radio button */
+.cstm-radio input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer; }
+
+/* On mouse-over, add a grey background color */
+/* When the radio button is checked, add a blue background */
+.cstm-radio input:checked ~ .checkmark {
+  border-color: #fc9345; }
+
+/* Show the indicator (dot/circle) when checked */
+.cstm-radio input:checked ~ .checkmark:after {
+  display: block; }
+
+/* Style the indicator (dot/circle) */
+.cstm-radio .checkmark:after {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 23px;
+  height: 23px;
+  border-radius: 50%;
+  background: #fc9345; }
+
+.flx-drcn-form {
+  flex-direction: column;
+  margin-top: 25px; }
+  .flx-drcn-form .pdg {
+    margin-bottom: 25px; }
+    .flx-drcn-form .pdg:last-child {
+      margin-bottom: 0; }
+
+.range-otr .range-head {
+  margin-top: 10px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 28px;
+  color: #fc9345; }
+  .range-otr .range-head i {
+    margin-right: 15px; }
+.range-otr .range-slider {
+  width: 100%;
+  margin: 0 auto;
+  position: relative;
+  margin-top: 100px;
+  margin-bottom: 20px; }
+.range-otr #range {
+  -webkit-appearance: none;
+  width: 100%;
+  background: transparent; }
+.range-otr #range:focus {
+  outline: none; }
+.range-otr #range::before,
+.range-otr #range::after {
+  position: absolute;
+  top: 2rem;
+  color: #333;
+  font-size: 14px;
+  line-height: 1;
+  padding: 3px 5px;
+  background-color: rgba(0, 0, 0, 0.1);
+  border-radius: 4px; }
+.range-otr #range::before {
+  left: 0;
+  content: attr(data-min); }
+.range-otr #range::after {
+  right: 0;
+  content: attr(data-max); }
+.range-otr #range::-webkit-slider-runnable-track {
+  width: 100%;
+  height: 3px;
+  cursor: pointer;
+  animate: 0.2s;
+  background: linear-gradient(90deg, #1DADC8 var(--range-progress), #434446 var(--range-progress));
+  border-radius: 1rem; }
+.range-otr #range::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  border: 0.25rem solid #0F161B;
+  border-radius: 50%;
+  background: #1DADC8;
+  cursor: pointer;
+  height: 32px;
+  width: 32px;
+  transform: translateY(calc(-50% + 2px)); }
+.range-otr #tooltip {
+  position: absolute;
+  top: -45px; }
+.range-otr #tooltip span {
+  position: absolute;
+  text-align: center;
+  display: flex;
+  line-height: 1;
+  padding: 2px;
+  background: #C1CFDC;
+  color: #0F161B;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 28px;
+  left: 50%;
+  transform: translate(-50%, 0);
+  font-family: "Manrope", sans-serif;
+  border-radius: 8px; }
+  .range-otr #tooltip span > div {
+    display: flex;
+    min-width: 100px;
+    height: 27px;
+    align-items: center;
+    justify-content: center; }
+.range-otr #tooltip span:before {
+  position: absolute;
+  content: "";
+  left: 50%;
+  bottom: -14px;
+  transform: translateX(-50%);
+  background: url(../img/range-arrow.png) no-repeat center;
+  background-size: 70%;
+  width: 76px;
+  height: 21px; }
+.range-otr .range-tooltip {
+  width: 80px;
+  top: -44px;
+  position: absolute;
+  pointer-events: none;
+  text-align: center;
+  line-height: 1;
+  padding: 2px !important;
+  background: none !important;
+  color: #0F161B !important;
+  font-weight: 700 !important;
+  font-size: 16px;
+  line-height: 28px;
+  font-family: "Manrope", sans-serif;
+  border-radius: 8px;
+  border: none !important;
+  height: 30px !important;
+  left: 50%;
+  transform: translate(-50%, 0);
+  padding: 0; }
+
+.start-investing-head {
+  display: block !important; }
+
+.start-investing-cover h2.title {
+  display: none; }
+
+.mobile-btn {
+  display: none; }
+
+.last-list:before {
+  display: none; }
+
+.cercle-prgrs-bar {
+  position: absolute;
+  right: 40px;
+  top: -80px; }
+
+.cercle-prgrs-bar-01 {
+  display: none; }
+
+.form-grp .select-grp .input-group-text {
+  max-width: 100px; }
+
+.dollar-cls {
+  position: absolute;
+  top: 11px;
+  left: 12px;
+  color: #C1CFDC; }
+  @media (max-width: 1679px) {
+    .dollar-cls {
+      top: 9px; } }
+  @media (max-width: 767px) {
+    .dollar-cls {
+      top: 11px; } }
+
+.slider-input {
+  padding-left: 23px !important; }
+
+.slider-input-holder ::-webkit-input-placeholder {
+  color: #C1CFDC !important; }
+.slider-input-holder :-moz-placeholder {
+  color: #C1CFDC !important; }
+.slider-input-holder ::-moz-placeholder {
+  color: #C1CFDC !important; }
+.slider-input-holder :-ms-input-placeholder {
+  color: #C1CFDC !important; }
+
+@media (max-width: 1679px) {
+  .forms-progress-cover ul .title-primary {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 28px; }
+
+  .form-grp .form-label {
+    font-size: 13px;
+    line-height: 17px; }
+
+  .range-otr #tooltip span {
+    font-size: 14px; }
+
+  .form-grp .form-control {
+    height: 42px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px; }
+
+  .form-grp {
+    margin-left: -15px;
+    margin-right: -15px; }
+
+  .form-grp .pdg {
+    padding-left: 15px;
+    padding-right: 15px; }
+
+  .forms-progress-cover ul li:before {
+    left: -40px; }
+
+  .forms-progress-cover ul li:after {
+    left: -49px;
+    width: 20px;
+    height: 20px; }
+
+  .forms-progress-cover ul .line-gry {
+    height: 58px; }
+
+  .range-otr .range-head {
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 25px; }
+
+  .range-otr .range-slider {
+    margin-top: 80px;
+    margin-bottom: 0px; }
+
+  .cstm-radio .checkmark {
+    width: 30px;
+    height: 30px; }
+
+  .cstm-radio {
+    padding-left: 46px;
+    font-size: 17px;
+    line-height: 33px;
+    min-width: 130px; }
+
+  .cstm-radio .checkmark:after {
+    width: 15px;
+    height: 15px; }
+
+  .range-otr #tooltip span:before {
+    bottom: -13px; }
+
+  .forms-progress-cover ul li p {
+    font-size: 13px;
+    line-height: 25px;
+    margin-top: 5px;
+    margin-bottom: 15px; }
+
+  .forms-progress-cover ul .flx-drcn .radio-otr {
+    margin-top: 15px; }
+
+  .forms-progress-cover .btn-submit {
+    font-size: 17px;
+    padding: 8px; }
+
+  .forms-progress-cover .btn-submit span {
+    height: 54px;
+    min-width: 280px;
+    padding: 10px 20px; }
+
+  .range-otr #tooltip span > div {
+    min-width: 88px; } }
+@media (max-width: 1281px) {
+  .forms-progress-cover {
+    margin-top: 50px;
+    max-width: 90%;
+    margin-left: auto;
+    margin-right: auto; }
+
+  .form-grp .width-3 {
+    width: 25%; } }
+@media (max-width: 1199px) {
+  .start-investing-cover:before {
+    content: "";
+    background-size: 90%;
+    right: 0; } }
+@media (max-width: 1023px) {
+  .form-grp .width-3 {
+    width: 50%; }
+
+  .half-width {
+    width: 100%; } }
+@media (max-width: 991px) {
+  .start-investing-cover:before {
+    content: "";
+    background-size: 100%; } }
+@media (max-width: 767px) {
+  .forms-progress-cover ul {
+    position: relative; }
+
+  .cercle-prgrs-bar-01 {
+    display: block; }
+
+  .start-investing-cover:after {
+    content: "";
+    width: 100%;
+    height: 110px;
+    position: absolute;
+    background-color: #1DADC8;
+    bottom: 0;
+    filter: blur(8px);
+    -webkit-filter: blur(54px);
+    z-index: -1;
+    opacity: 0.3; }
+
+  .mobile-btn {
+    display: block; }
+
+  .start-investing-cover h2.title {
+    display: block; }
+
+  .form-grp .pdg {
+    flex: 0 0 auto;
+    width: 100%; }
+
+  .forms-progress-cover ul li:after, .forms-progress-cover ul li:before {
+    display: none; }
+
+  .forms-progress-cover ul .title-primary {
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 28px; }
+
+  .forms-progress-cover ul li .first-head {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+    margin-bottom: 25px; }
+
+  .forms-progress-cover ul li:first-child .title-primary {
+    margin-bottom: 20px; }
+
+  .forms-progress-cover ul .line-gry {
+    height: 38px;
+    margin-bottom: 10px; }
+
+  .start-investing-cover .title {
+    display: block;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    color: #FFFFFF;
+    margin-bottom: 10px;
+    font-family: "Syne", sans-serif; }
+  .start-investing-cover .our-fund-block-header {
+    padding-left: 0 !important; }
+
+  .forms-progress-cover {
+    max-width: 100%;
+    margin: 0 0; }
+
+  .desktop-view {
+    display: none; }
+
+  .submit-otr {
+    display: flex;
+    justify-content: center; }
+
+  .forms-progress-cover .btn-submit {
+    font-size: 15px;
+    min-width: 100%;
+    background-color: transparent; }
+
+  .forms-progress-cover .btn-submit span {
+    min-width: 100%; }
+
+  .form-grp .form-control {
+    border-radius: 12px;
+    height: 46px;
+    font-size: 16px; }
+
+  .form-grp .form-label {
+    font-size: 16px;
+    line-height: 17px; }
+
+  .forms-progress-cover .input-holder {
+    margin-bottom: 18px; }
+
+  .title.start-investing-head {
+    display: none !important; }
+
+  .d-mb-none {
+    display: none; }
+
+  .start-investing-cover:before {
+    background-image: none; }
+
+  .range-otr .range-slider {
+    margin-top: 60px; }
+
+  .mrgn .input-holder {
+    width: 210px; }
+
+  .next-section-display-none {
+    display: none; }
+
+  .next-section-display-block {
+    display: block; } }
+.slider-input::-webkit-inner-spin-button, .slider-input::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  margin: 0; }
+
+@media (max-width: 579px) {
+  .range-wrap {
+    padding: 0 30px; }
+
+  .mrgn .input-holder {
+    margin-left: 30px; }
+
+  .form-grp .pdg {
+    padding-left: 0;
+    padding-right: 0; }
+
+  .form-grp {
+    margin-left: 0;
+    margin-right: 0; } }
+.range-wrap {
+  padding-top: 75px; }
+
+.irs--round .irs-bar {
+  background-color: #1DADC8; }
+
+.irs--round .irs-handle {
+  background-color: #1DADC8;
+  border-color: #1DADC8;
+  box-shadow: 0px 0px 0px 5px rgba(0, 194, 192, 0.2); }
+
+.irs--round .irs-handle.state_hover,
+.irs--round .irs-handle:hover {
+  background-color: #1DADC8; }
+
+.irs--round .irs-handle {
+  width: 38px;
+  height: 38px;
+  top: 19px; }
+
+.irs--round .irs-single {
+  text-align: center;
+  padding: 2px;
+  background: #C1CFDC;
+  color: #0F161B;
+  font-weight: 700;
+  font-size: 16px;
+  font-family: "Manrope", sans-serif;
+  border-radius: 8px;
+  width: 110px;
+  height: 34px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  top: -35px; }
+
+.irs--round .irs-single:before {
+  position: absolute;
+  content: "";
+  margin: auto;
+  left: 0;
+  right: 0;
+  bottom: -9px;
+  background: url(../img/range-arrow.png) no-repeat center;
+  background-size: 63%;
+  width: 100%;
+  height: 14px;
+  display: inline-block;
+  border: none; }
+
+.irs--round .irs-from:before,
+.irs--round .irs-to:before,
+.irs--round .irs-min,
+.irs--round .irs-max {
+  display: none; }
+
+.irs--round .irs-line {
+  background-color: #C1CFDC; }
+
+.irs--round .irs-handle {
+  box-shadow: none;
+  border-color: #0F161B; }
+
+.alert-msg-p {
+  text-align: center; }
+
+/*# sourceMappingURL=forms-styles.css.map */

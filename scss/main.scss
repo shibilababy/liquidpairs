@@ -1,0 +1,34 @@
+@import "partials/variables";
+@import "partials/mixins";
+@import "partials/type";
+
+@media (min-width: 1300px){
+    .container-1200{
+        max-width: 1200px;
+    }
+}
+
+
+
+@media (min-width: 1300px){
+    .container-1300{
+        max-width: 1200px;
+    }
+}
+@media (min-width: 1400px){
+    .container-1300{
+        max-width: 1300px;
+    }
+}
+
+
+.nav-padding{
+    margin-top: 110px;
+    @media ($sm-1199) {
+        margin-top: 85px;
+    }
+}
+
+body{
+    background-color: #0F161B;
+}
